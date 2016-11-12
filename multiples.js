@@ -8,9 +8,7 @@ exports.sumOfAMultiple = function( n ) {
 
   for(var i = 0; i<n; i++) {
     if (i % 3 === 0 || i % 5 === 0 ) {
-      console.log(sumOfAMultiple(1000))
-      sum = sum+=i;
-      console.log(sumOfAMultiple(1000))
+    sum = sum+=i;
     }
   }
 
